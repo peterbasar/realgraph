@@ -5,10 +5,10 @@ import { GraphI } from './types'
 
 const GraphDefaultProps: GraphI = {
   isGraphMoving: true,
-  graphMovingRate: 60,
+  graphMovingRate: 90,
   points: undefined,
-  width: 500,
-  height: 500,
+  width: 300,
+  height: 300,
   interval: 200,
   count: 10,
   memory: 20,

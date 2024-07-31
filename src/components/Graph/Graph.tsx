@@ -316,8 +316,8 @@ function Graph(
     <GraphStyleContext.Provider value={style}>
       <div
         style={{
-          width: '100%',
-          height: '100%',
+          width: 'fit-content',
+          height: 'fit-content',
           display: 'flex',
           flexDirection: axisPositionX === 'TOP' ? 'column-reverse' : 'column',
           ...style['graphOuterContainer'],
