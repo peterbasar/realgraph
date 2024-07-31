@@ -1,0 +1,49 @@
+{
+  "name": "realgraph",
+  "version": "0.0.0",
+  "description": "Real time graph data visualization library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbasar/realgraph.git"
+  },
+  "keywords": [
+    "real",
+    "time",
+    "graph",
+    "data",
+    "visualization",
+    "react",
+    "line",
+    "graph",
+    "simulation"
+  ],
+  "author": "Peter Basar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterbasar/realgraph/issues"
+  },
+  "homepage": "https://github.com/peterbasar/realgraph#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "export-to-csv": "^1.2.4"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
