@@ -1,6 +1,6 @@
 {
   "name": "realgraph",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Real time graph data visualization library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
