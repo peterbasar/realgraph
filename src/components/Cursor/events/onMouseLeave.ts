@@ -4,7 +4,7 @@ import {
   cursorLineVerticalTextRefI,
   cursorLineHorizontalTextRefI,
   cursorCircleRefI,
-} from '../../Graph/types'
+} from '../../types'
 
 export default function onMouseLeave({
   cursorLineVerticalRef,

@@ -1,4 +1,4 @@
-import { filenameI, svgRefI, pointsRefI } from '../../types'
+import { filenameI, svgRefI, pointsRefI } from '../../../types'
 import { svgGetString, downloadSvgFromString, svgGetGraph } from './utils'
 
 export default function downloadSvgFromPoints({

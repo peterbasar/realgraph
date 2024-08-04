@@ -1,4 +1,4 @@
-import { memoryRefI, countRefI, pointsRefI, callableCleanupI } from '../types'
+import { memoryRefI, countRefI, pointsRefI, callableCleanupI } from '../../types'
 import { cleanup } from '../utils'
 
 export default function callableCleanup({

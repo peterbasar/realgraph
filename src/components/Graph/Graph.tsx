@@ -24,7 +24,7 @@ import {
   isGraphMovingLoopI,
   callablesRefI,
   callablesI,
-} from './types'
+} from '../types'
 import {
   changeWidth,
   changeHeight,

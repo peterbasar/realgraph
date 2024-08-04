@@ -1,4 +1,4 @@
-import { graphMovingI } from '../types'
+import { graphMovingI } from '../../types'
 import { isValidRef } from '.'
 
 const delay = async (ms: number) => {

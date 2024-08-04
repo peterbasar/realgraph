@@ -1,4 +1,4 @@
-import { countI, intervalI } from '../types'
+import { countI, intervalI } from '../../types'
 
 export default function getGraphTimeWidth({
   count,

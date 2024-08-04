@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { callablesRefI, minRefI, minI } from '../types'
+import { callablesRefI, minRefI, minI } from '../../types'
 
 export default function useHandleChangeMin({
   callablesRef,

@@ -1,4 +1,4 @@
-import { pointI, memoryRefI, countRefI, pointsRefI } from '../types'
+import { pointI, memoryRefI, countRefI, pointsRefI } from '../../types'
 import { isValidRef } from '.'
 
 export default function cleanup({

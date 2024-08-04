@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { axisYSectionI, axisWidthYI, axisTextAnchorY } from '../Graph/types'
+import { axisYSectionI, axisWidthYI, axisTextAnchorY } from '../types'
 import GraphStyleContext from '../GraphStyleContext'
 import { getOr } from '../Graph/utils'
 

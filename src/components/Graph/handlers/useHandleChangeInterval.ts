@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { intervalRefI, intervalI } from '../types'
+import { intervalRefI, intervalI } from '../../types'
 
 export default function useHandleChangeInterval({
   intervalRef,

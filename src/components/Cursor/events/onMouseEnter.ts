@@ -4,7 +4,7 @@ import {
   cursorLineVerticalTextRefI,
   cursorLineHorizontalTextRefI,
   cursorCircleRefI,
-} from '../../Graph/types'
+} from '../../types'
 import { isValidRef } from '../../Graph/utils'
 
 export default function onMouseEnter({

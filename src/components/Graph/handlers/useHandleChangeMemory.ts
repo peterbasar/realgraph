@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { memoryI, memoryRefI } from '../types'
+import { memoryI, memoryRefI } from '../../types'
 
 export default function useHandleChangeMemory({
   memory,

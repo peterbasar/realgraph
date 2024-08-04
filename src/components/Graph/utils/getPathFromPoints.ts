@@ -13,7 +13,7 @@ import {
   widthRefI,
   activeRefI,
   activeI,
-} from '../types'
+} from '../../types'
 import { isValidRef, convertTimeToWidth } from '.'
 
 function calculateX({

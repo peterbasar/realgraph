@@ -1,7 +1,7 @@
 import GraphDefaultStyle from './GraphDefaultStyle'
 import { formatGraphValueX, formatGraphValueY } from '../Cursor/utils'
 import { formatAxisX, formatAxisY } from '../Axis/utils'
-import { GraphI } from './types'
+import { GraphI } from '../types'
 
 const GraphDefaultProps: GraphI = {
   isGraphMoving: true,
@@ -24,8 +24,8 @@ const GraphDefaultProps: GraphI = {
   axisEnableY: true,
   axisHeightX: 70,
   axisWidthY: 110,
-  axisTitleX: '',
-  axisTitleY: '',
+  axisTitleX: 'Time [ms]',
+  axisTitleY: 'Value',
   axisXSectionCount: 2,
   axisYSectionCount: 2,
   formatAxisX: formatAxisX,

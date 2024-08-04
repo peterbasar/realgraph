@@ -13,3 +13,16 @@ Real time graph data visualization library for React
 ```
 npm install realgraph
 ```
+
+### Potential features
+
+- Export all types
+- Make the Graph component automatically resizable to fit the parent element
+- Optional offset parameter
+- Slider option to check the history
+- Point graph option
+- Add tests
+- Documentation with git integration
+- Handling multiple lines in 1 graph
+
+### Known bugs

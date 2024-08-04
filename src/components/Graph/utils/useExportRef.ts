@@ -48,7 +48,7 @@ import {
   pointsI,
   GraphI,
   callablesRefI,
-} from '../types'
+} from '../../types'
 import { downloadCsvFromPoints, downloadSvgFromPoints } from '.'
 
 export default function useExportRef({

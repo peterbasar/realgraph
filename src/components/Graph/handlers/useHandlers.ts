@@ -50,7 +50,7 @@ import {
   graphMovingRateI,
   graphMovingRateRefI,
   callablesRefI,
-} from '../types'
+} from '../../types'
 
 export default function useHandlers({
   callablesRef,

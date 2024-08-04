@@ -1,4 +1,4 @@
-import { heightI, svgRefI } from '../types'
+import { heightI, svgRefI } from '../../types'
 import isValidRef from './isValidRef'
 
 export default function changeViewBoxHeight({

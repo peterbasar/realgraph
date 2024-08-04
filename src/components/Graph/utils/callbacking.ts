@@ -1,4 +1,4 @@
-import { callbackingI, pointI } from '../types'
+import { callbackingI, pointI } from '../../types'
 import { isValidRef } from '.'
 
 const delay = async (ms: number) => {

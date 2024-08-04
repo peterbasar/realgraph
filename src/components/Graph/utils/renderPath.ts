@@ -8,7 +8,7 @@ import {
   pathRefI,
   pointsRefI,
   widthRefI,
-} from '../types'
+} from '../../types'
 import getPathFromPoints from './getPathFromPoints'
 import isValidRef from './isValidRef'
 

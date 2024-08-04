@@ -1,4 +1,4 @@
-import { pointI } from '../../../types'
+import { pointI } from '../../../../types'
 
 export default function pointsClean({ points }: { points: Array<pointI> }): Array<pointI> {
   /**

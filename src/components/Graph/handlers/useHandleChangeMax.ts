@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { maxI, maxRefI, callablesRefI } from '../types'
+import { maxI, maxRefI, callablesRefI } from '../../types'
 
 export default function useHandleChangeMax({
   callablesRef,

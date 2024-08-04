@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { widthRefI, svgRefI, pointsRefI, widthI, callablesRefI } from '../types'
+import { widthRefI, svgRefI, pointsRefI, widthI, callablesRefI } from '../../types'
 import { changeWidth, isValidRef } from '../utils'
 
 export default function useHandleChangeWidth({

@@ -1,4 +1,4 @@
-import { pointI } from '../../../types'
+import { pointI } from '../../../../types'
 
 export default function pointsParse({ pathData }: { pathData: string }): Array<pointI> {
   /**

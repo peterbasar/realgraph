@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { formatAxisXI, formatAxisXRefI, formatAxisYI, formatAxisYRefI } from '../types'
+import { formatAxisXI, formatAxisXRefI, formatAxisYI, formatAxisYRefI } from '../../types'
 
 export default function useHandleChangeFormatAxisXY({
   formatAxisX,

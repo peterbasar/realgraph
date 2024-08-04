@@ -1,4 +1,4 @@
-import { pointI } from '../../../types'
+import { pointI } from '../../../../types'
 
 export default function pathGenerate({ points }: { points: Array<pointI> }): string {
   /**

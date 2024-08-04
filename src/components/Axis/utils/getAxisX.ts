@@ -1,4 +1,4 @@
-import { countI, formatAxisXI, intervalI } from '../../Graph/types'
+import { countI, formatAxisXI, intervalI } from '../../types'
 import { cleanNormalizedValue } from '.'
 
 export default function getAxisX({

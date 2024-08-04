@@ -1,4 +1,4 @@
-import { svgRefI, widthI } from '../types'
+import { svgRefI, widthI } from '../../types'
 import isValidRef from './isValidRef'
 
 export default function changeViewBoxWidth({

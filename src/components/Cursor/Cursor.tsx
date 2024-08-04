@@ -16,7 +16,7 @@ import {
   intervalRefI,
   formatCursorXRefI,
   formatCursorYRefI,
-} from '../Graph/types'
+} from '../types'
 import { isValidRef, getOr } from '../Graph/utils'
 import { onMouseEnter, onMouseLeave, onMouseMove } from './events'
 import GraphStyleContext from '../GraphStyleContext'

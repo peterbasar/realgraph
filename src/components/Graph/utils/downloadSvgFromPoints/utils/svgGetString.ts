@@ -1,4 +1,4 @@
-import { svgRefI } from '../../../types'
+import { svgRefI } from '../../../../types'
 
 export default function svgGetString({ svgRef }: { svgRef: svgRefI }): string {
   /**

@@ -1,11 +1,4 @@
-import {
-  heightI,
-  axisSectionCountI,
-  minI,
-  maxI,
-  axisYSectionI,
-  formatAxisYI,
-} from '../../Graph/types'
+import { heightI, axisSectionCountI, minI, maxI, axisYSectionI, formatAxisYI } from '../../types'
 import { getSectionSize, getAxisY } from '.'
 
 export default function generateSectionsY({

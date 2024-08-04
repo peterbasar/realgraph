@@ -1,4 +1,4 @@
-import { heightI, svgRefI } from '../types'
+import { heightI, svgRefI } from '../../types'
 import changeViewBoxHeight from './changeViewBoxHeight'
 import isValidRef from './isValidRef'
 

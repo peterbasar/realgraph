@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { formatCursorXI, formatCursorXRefI, formatCursorYI, formatCursorYRefI } from '../types'
+import { formatCursorXI, formatCursorXRefI, formatCursorYI, formatCursorYRefI } from '../../types'
 
 export default function useHandleChangeFormatCursorXY({
   formatCursorX,

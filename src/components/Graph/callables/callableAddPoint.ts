@@ -1,4 +1,4 @@
-import { callableAddPointI, pointsRefI } from '../types'
+import { callableAddPointI, pointsRefI } from '../../types'
 import addPoint from '../utils/addPoint'
 
 export default function callableAddPoint({

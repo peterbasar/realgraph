@@ -13,7 +13,7 @@ import {
   intervalRefI,
   formatCursorXRefI,
   formatCursorYRefI,
-} from '../../Graph/types'
+} from '../../types'
 import { getValueFromGraphPositionX, getValueFromGraphPositionY } from '../utils'
 import { isValidRef } from '../../Graph/utils'
 

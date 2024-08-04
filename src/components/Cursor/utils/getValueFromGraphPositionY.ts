@@ -1,4 +1,4 @@
-import { minRefI, maxRefI, heightRefI } from '../../Graph/types'
+import { minRefI, maxRefI, heightRefI } from '../../types'
 import { isValidRef } from '../../Graph/utils'
 
 export default function getValueFromGraphPositionY({

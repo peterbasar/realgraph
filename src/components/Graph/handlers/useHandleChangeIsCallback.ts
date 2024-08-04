@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { isCallbackI, isCallbackRefI } from '../types'
+import { isCallbackI, isCallbackRefI } from '../../types'
 import { isValidRef } from '../utils'
 
 export default function useHandleChangeIsCallback({

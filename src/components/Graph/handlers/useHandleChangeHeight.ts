@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { heightRefI, svgRefI, heightI, callablesRefI } from '../types'
+import { heightRefI, svgRefI, heightI, callablesRefI } from '../../types'
 import { changeHeight, isValidRef } from '../utils'
 
 export default function useHandleChangeHeight({

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { activeI, activeRefI, callablesRefI } from '../types'
+import { activeI, activeRefI, callablesRefI } from '../../types'
 import { isValidRef } from '../utils'
 
 export default function useHandleChangeActive({

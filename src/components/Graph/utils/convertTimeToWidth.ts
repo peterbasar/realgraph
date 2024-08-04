@@ -1,4 +1,4 @@
-import { countI, intervalI, pointI, widthI } from '../types'
+import { countI, intervalI, pointI, widthI } from '../../types'
 import { getGraphTimeWidth } from '.'
 
 export default function convertTimeToWidth({

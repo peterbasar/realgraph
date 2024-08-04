@@ -20,7 +20,7 @@ import {
   GraphI,
   isGraphMovingI,
   graphMovingRateI,
-} from '../types'
+} from '../../types'
 
 export interface sanitateInputI {
   isGraphMoving: isGraphMovingI

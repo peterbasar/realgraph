@@ -1,4 +1,4 @@
-import { heightI, widthI, axisSectionCountI } from '../../Graph/types'
+import { heightI, widthI, axisSectionCountI } from '../../types'
 
 export default function getSectionSize({
   length,

@@ -11,7 +11,7 @@ import {
   pathRefI,
   pointsRefI,
   widthRefI,
-} from '../types'
+} from '../../types'
 
 export default function buildFunctions({
   pathRef,

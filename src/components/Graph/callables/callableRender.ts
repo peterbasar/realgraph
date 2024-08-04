@@ -9,7 +9,7 @@ import {
   pathRefI,
   pointsRefI,
   widthRefI,
-} from '../types'
+} from '../../types'
 import renderPath from '../utils/renderPath'
 
 export default function callableRender({

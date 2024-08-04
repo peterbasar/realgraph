@@ -1,5 +1,10 @@
 import { useEffect } from 'react'
-import { isGraphMovingI, isGraphMovingRefI, graphMovingRateI, graphMovingRateRefI } from '../types'
+import {
+  isGraphMovingI,
+  isGraphMovingRefI,
+  graphMovingRateI,
+  graphMovingRateRefI,
+} from '../../types'
 
 export default function useHandleChangeMoving({
   isGraphMoving,

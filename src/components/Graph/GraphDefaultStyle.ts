@@ -1,4 +1,4 @@
-import { GraphStyleI } from './types'
+import { GraphStyleI } from '../types'
 
 const GraphDefaultStyle: GraphStyleI = {
   cursorLineHorizontal: {},

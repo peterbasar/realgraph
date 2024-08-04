@@ -5,7 +5,7 @@ import {
   formatAxisXI,
   countI,
   intervalI,
-} from '../../Graph/types'
+} from '../../types'
 import { getSectionSize, getAxisX } from '.'
 
 export default function generateSectionsX({

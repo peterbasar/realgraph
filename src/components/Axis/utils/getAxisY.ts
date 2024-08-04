@@ -1,4 +1,4 @@
-import { minI, maxI, formatAxisYI } from '../../Graph/types'
+import { minI, maxI, formatAxisYI } from '../../types'
 import { cleanNormalizedValue } from '.'
 
 export default function getAxisY({

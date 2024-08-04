@@ -10,7 +10,7 @@ import {
   axisTextAnchorY,
   axisTitleYI,
   axisEnableYI,
-} from '../Graph/types'
+} from '../types'
 import { generateSectionsY } from './utils'
 import AxisYText from './AxisYText'
 import AxisYLine from './AxisYLine'

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { pointsRefI, GraphI, pathRefI, callablesRefI } from '../types'
+import { pointsRefI, GraphI, pathRefI, callablesRefI } from '../../types'
 import { isValidRef } from '../utils'
 
 export default function useHandleChangePoints({

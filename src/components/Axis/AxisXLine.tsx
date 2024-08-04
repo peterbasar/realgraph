@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { axisHeightXI, axisDominantBaselineX, axisXSectionI } from '../Graph/types'
+import { axisHeightXI, axisDominantBaselineX, axisXSectionI } from '../types'
 import GraphStyleContext from '../GraphStyleContext'
 import { getOr } from '../Graph/utils'
 

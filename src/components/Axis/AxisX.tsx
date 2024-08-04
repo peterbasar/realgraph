@@ -11,7 +11,7 @@ import {
   axisTitleXI,
   axisEnableXI,
   widthI,
-} from '../Graph/types'
+} from '../types'
 import { generateSectionsX } from './utils'
 import AxisXText from './AxisXText'
 import AxisXLine from './AxisXLine'

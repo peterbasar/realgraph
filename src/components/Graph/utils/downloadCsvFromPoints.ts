@@ -1,4 +1,4 @@
-import { filenameI, pointsRefI } from '../types'
+import { filenameI, pointsRefI } from '../../types'
 import { mkConfig, generateCsv, download } from 'export-to-csv'
 import { isValidRef } from '.'
 

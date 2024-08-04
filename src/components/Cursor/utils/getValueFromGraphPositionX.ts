@@ -1,4 +1,4 @@
-import { countRefI, widthRefI, intervalRefI } from '../../Graph/types'
+import { countRefI, widthRefI, intervalRefI } from '../../types'
 import { isValidRef, getGraphTimeWidth } from '../../Graph/utils'
 
 export default function getValueFromGraphPositionX({
