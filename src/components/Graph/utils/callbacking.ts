@@ -44,7 +44,7 @@ export default async function callbacking({
               let yNew: pointI['y'] = 0
               if (isCallbackRef.current === true) {
                 /* Callback is on - request new value */
-                yNew = Math.round(getValueCallback())
+                yNew = Math.round(getValueCallback() * 1000) / 1000
 
                 callablesRef.current.addPoint(yNew)
                 callablesRef.current.cleanup()

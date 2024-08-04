@@ -22,7 +22,7 @@ const GraphDefaultProps: GraphI = {
   formatCursorX: (x: number) => formatGraphValueX(x),
   axisEnableX: true,
   axisEnableY: true,
-  axisHeightX: 70,
+  axisHeightX: 90,
   axisWidthY: 110,
   axisTitleX: 'Time [ms]',
   axisTitleY: 'Value',
