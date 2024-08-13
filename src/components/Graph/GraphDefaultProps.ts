@@ -11,7 +11,7 @@ const GraphDefaultProps: GraphI = {
   height: 300,
   interval: 200,
   count: 10,
-  memory: 20,
+  memory: 40,
   min: 0,
   max: 100,
   isCallback: true,
