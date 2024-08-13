@@ -16,7 +16,6 @@ npm install realgraph
 
 ### Potential features
 
-- Export all types
 - Make the Graph component automatically resizable to fit the parent element
 - Optional offset parameter
 - Slider option to check the history
