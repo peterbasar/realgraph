@@ -16,7 +16,7 @@ export default function downloadCsvFromPoints({
 
   const csvConfig = mkConfig({
     useKeysAsHeaders: true,
-    filename: filename ?? `realgraph-${new Date().toISOString()}.csv`,
+    filename: filename ?? `realgraph-${new Date().toISOString()}`,
   })
 
   if (isValidRef(pointsRef) && pointsRef.current.length) {
