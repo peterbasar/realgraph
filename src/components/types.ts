@@ -18,11 +18,11 @@ export type activeI = boolean
 
 export type memoryI = number
 
-export type downloadCsvI = ({ filename }: { filename?: string }) => void
+export type downloadCsvI = (filename?: filenameI) => void
 
-export type downloadSvgI = ({ filename }: { filename?: filenameI }) => void
+export type downloadSvgI = (filename?: filenameI) => void
 
-export type downloadSvgFullI = ({ filename }: { filename?: filenameI }) => void
+export type downloadSvgFullI = (filename?: filenameI) => void
 
 export type configI = {
   pointsRef: pointsRefI
@@ -99,6 +99,7 @@ export type graphExportRefI = {
   downloadSvg: downloadSvgI
   downloadSvgFull: downloadSvgFullI
   addPoint: callableAddPointI
+  getPoints: () => pointsI
   render: callableRenderI
   cleanup: callableCleanupI
   getConfig: getConfigI

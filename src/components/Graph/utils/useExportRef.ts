@@ -49,7 +49,7 @@ import {
   GraphI,
   callablesRefI,
 } from '../../types'
-import { downloadCsvFromPoints, downloadSvgFromPoints } from '.'
+import { downloadCsvFromPoints, downloadSvgFromPoints, isValidRef } from '.'
 
 export default function useExportRef({
   ref,
@@ -196,13 +196,13 @@ export default function useExportRef({
 
   useImperativeHandle(ref, () => {
     const graphExport: graphExportRefI = {
-      downloadCsv: ({ filename }: { filename?: filenameI }) => {
+      downloadCsv: (filename?: filenameI) => {
         downloadCsvFromPoints({
           filename,
           pointsRef,
         })
       },
-      downloadSvg: ({ filename }) => {
+      downloadSvg: (filename?: filenameI) => {
         downloadSvgFromPoints({
           filename,
           svgRef,
@@ -210,7 +210,7 @@ export default function useExportRef({
           full: false,
         })
       },
-      downloadSvgFull: ({ filename }) => {
+      downloadSvgFull: (filename?: filenameI) => {
         downloadSvgFromPoints({
           filename,
           svgRef,
@@ -219,6 +219,12 @@ export default function useExportRef({
         })
       },
       addPoint: callablesRef.current.addPoint,
+      getPoints: () => {
+        if (isValidRef(pointsRef)) {
+          return pointsRef.current
+        }
+        return []
+      },
       render: callablesRef.current.render,
       cleanup: callablesRef.current.cleanup,
       getConfig: () => ({
