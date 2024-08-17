@@ -27,7 +27,7 @@ const GraphDefaultProps: GraphI = {
   axisTitleX: 'Time [ms]',
   axisTitleY: 'Value',
   axisXSectionCount: 2,
-  axisYSectionCount: 2,
+  axisYSectionCount: 4,
   formatAxisX: formatAxisX,
   formatAxisY: formatAxisY,
   axisPositionX: 'BOTTOM',
