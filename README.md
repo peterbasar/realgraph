@@ -1,8 +1,14 @@
 # realgraph
 
-Real time graph data visualization library for React
+Realtime graph data visualization library for React
 
 <b>Demo:</b> [realgraph.vercel.app](https://realgraph.vercel.app/)
+
+<b>Demo GitHub:</b>
+[github.com/peterbasar/realgraph-demo](https://github.com/peterbasar/realgraph-demo)
+
+[Package size](https://bundlephobia.com/package/realgraph):
+`28.6 kB Minified 7.2 kB Minified + Gzippedz`
 
 ---
 
@@ -25,3 +31,5 @@ npm install realgraph
 - Handling multiple lines in 1 graph
 
 ### Known bugs
+
+- Graph slows down on inactive tab (energy saving browser feature)
