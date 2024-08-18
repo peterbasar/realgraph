@@ -206,12 +206,12 @@ export interface GraphI {
   isCallback?: isCallbackI
   getValueCallback?: getValueCallbackI
   active?: boolean
-  formatCursorY?: formatCursorYI
   formatCursorX?: formatCursorXI
-  axisEnableX?: boolean
-  axisEnableY?: boolean
-  axisHeightX?: number
-  axisWidthY?: number
+  formatCursorY?: formatCursorYI
+  axisEnableX?: axisEnableXI
+  axisEnableY?: axisEnableYI
+  axisHeightX?: axisHeightXI
+  axisWidthY?: axisWidthYI
   axisTitleX?: axisTitleXI
   axisTitleY?: axisTitleYI
   axisXSectionCount?: axisSectionCountI
