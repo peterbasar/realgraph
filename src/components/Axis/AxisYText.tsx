@@ -34,6 +34,8 @@ export default function AxisYText({
       dy={getOr(graphStyleContext, 'axisYText.dy', undefined)}
       rotate={getOr(graphStyleContext, 'axisYText.rotate', undefined)}
       dominantBaseline={getOr(graphStyleContext, 'axisYText.dominantBaseline', 'middle')}
+      fontWeight={getOr(graphStyleContext, 'axisYText.fontWeight', undefined)}
+      style={getOr(graphStyleContext, 'axisYText.style', {})}
     >
       {value}
     </text>

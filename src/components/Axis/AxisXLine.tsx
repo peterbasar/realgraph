@@ -37,6 +37,7 @@ export default function AxisXLine({
       stroke={getOr(graphStyleContext, 'axisXLine.stroke', 'black')}
       strokeDasharray={getOr(graphStyleContext, 'axisXLine.strokeDasharray', undefined)}
       strokeWidth={getOr(graphStyleContext, 'axisXLine.strokeWidth', undefined)}
+      style={getOr(graphStyleContext, 'axisXLine.style', {})}
     />
   )
 }

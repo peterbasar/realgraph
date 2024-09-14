@@ -35,6 +35,7 @@ export default function AxisYLine({
       stroke={getOr(graphStyleContext, 'axisYLine.stroke', 'black')}
       strokeDasharray={getOr(graphStyleContext, 'axisYLine.strokeDasharray', undefined)}
       strokeWidth={getOr(graphStyleContext, 'axisYLine.strokeWidth', undefined)}
+      style={getOr(graphStyleContext, 'axisYLine.style', {})}
     />
   )
 }

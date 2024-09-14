@@ -34,6 +34,8 @@ export default function AxisXText({
       dy={getOr(graphStyleContext, 'axisXText.dy', undefined)}
       rotate={getOr(graphStyleContext, 'axisXText.rotate', undefined)}
       textAnchor={getOr(graphStyleContext, 'axisXText.textAnchor', 'middle')}
+      fontWeight={getOr(graphStyleContext, 'axisXText.fontWeight', undefined)}
+      style={getOr(graphStyleContext, 'axisXText.style', {})}
     >
       {value}
     </text>

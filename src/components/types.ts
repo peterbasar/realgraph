@@ -295,14 +295,18 @@ export interface GraphStyleI {
     stroke?: React.SVGLineElementAttributes<SVGLineElement>['stroke']
     strokeDasharray?: React.SVGLineElementAttributes<SVGLineElement>['strokeDasharray']
     strokeWidth?: React.SVGLineElementAttributes<SVGLineElement>['strokeWidth']
+    style?: CSSProperties
   }
   cursorLineVertical?: {
     stroke?: React.SVGLineElementAttributes<SVGLineElement>['stroke']
     strokeDasharray?: React.SVGLineElementAttributes<SVGLineElement>['strokeDasharray']
     strokeWidth?: React.SVGLineElementAttributes<SVGLineElement>['strokeWidth']
+    style?: CSSProperties
   }
   cursorCircle?: {
     r?: React.SVGProps<SVGCircleElement>['r']
+    fill?: React.SVGProps<SVGCircleElement>['fill']
+    style?: CSSProperties
   }
   cursorLineHorizontalText?: {
     textAnchor?: React.SVGTextElementAttributes<SVGTextElement>['textAnchor']
@@ -310,6 +314,8 @@ export interface GraphStyleI {
     dx?: React.SVGTextElementAttributes<SVGTextElement>['dx']
     dy?: React.SVGTextElementAttributes<SVGTextElement>['dy']
     rotate?: React.SVGTextElementAttributes<SVGTextElement>['rotate']
+    fontWeight?: React.SVGTextElementAttributes<SVGTextElement>['fontWeight']
+    style?: CSSProperties
   }
   cursorLineVerticalText?: {
     textAnchor?: React.SVGTextElementAttributes<SVGTextElement>['textAnchor']
@@ -317,6 +323,8 @@ export interface GraphStyleI {
     dx?: React.SVGTextElementAttributes<SVGTextElement>['dx']
     dy?: React.SVGTextElementAttributes<SVGTextElement>['dy']
     rotate?: React.SVGTextElementAttributes<SVGTextElement>['rotate']
+    fontWeight?: React.SVGTextElementAttributes<SVGTextElement>['fontWeight']
+    style?: CSSProperties
   }
   graphPath?: CSSProperties | undefined
   axisYContainer?: CSSProperties | undefined
@@ -326,12 +334,15 @@ export interface GraphStyleI {
     stroke?: React.SVGLineElementAttributes<SVGLineElement>['stroke']
     strokeDasharray?: React.SVGLineElementAttributes<SVGLineElement>['strokeDasharray']
     strokeWidth?: React.SVGLineElementAttributes<SVGLineElement>['strokeWidth']
+    style?: CSSProperties
   }
   axisYText?: {
     dx?: React.SVGTextElementAttributes<SVGTextElement>['dx']
     dy?: React.SVGTextElementAttributes<SVGTextElement>['dy']
     rotate?: React.SVGTextElementAttributes<SVGTextElement>['rotate']
     dominantBaseline?: React.SVGTextElementAttributes<SVGTextElement>['dominantBaseline']
+    fontWeight?: React.SVGTextElementAttributes<SVGTextElement>['fontWeight']
+    style?: CSSProperties
   }
   axisXOuterContainer?: CSSProperties | undefined
   axisXInnerContainer?: CSSProperties | undefined
@@ -341,11 +352,14 @@ export interface GraphStyleI {
     stroke?: React.SVGLineElementAttributes<SVGLineElement>['stroke']
     strokeDasharray?: React.SVGLineElementAttributes<SVGLineElement>['strokeDasharray']
     strokeWidth?: React.SVGLineElementAttributes<SVGLineElement>['strokeWidth']
+    style?: CSSProperties
   }
   axisXText?: {
     dx?: React.SVGTextElementAttributes<SVGTextElement>['dx']
     dy?: React.SVGTextElementAttributes<SVGTextElement>['dy']
     rotate?: React.SVGTextElementAttributes<SVGTextElement>['rotate']
     textAnchor?: React.SVGTextElementAttributes<SVGTextElement>['textAnchor']
+    fontWeight?: React.SVGTextElementAttributes<SVGTextElement>['fontWeight']
+    style?: CSSProperties
   }
 }

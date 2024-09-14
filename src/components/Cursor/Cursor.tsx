@@ -125,7 +125,9 @@ export default function Cursor({
         cx="0"
         cy="0"
         r={getOr(graphStyleContext, 'cursorCircle.r', '3')}
+        fill={getOr(graphStyleContext, 'cursorCircle.fill', 'black')}
         visibility="hidden"
+        style={getOr(graphStyleContext, 'cursorCircle.style', {})}
       />
       <line
         id="cursorLineVertical"
@@ -138,6 +140,7 @@ export default function Cursor({
         strokeDasharray={getOr(graphStyleContext, 'cursorLineVertical.strokeDasharray', '5,10')}
         strokeWidth={getOr(graphStyleContext, 'cursorLineVertical.strokeWidth', '1')}
         visibility="hidden"
+        style={getOr(graphStyleContext, 'cursorLineVertical.style', {})}
       />
       <line
         id="cursorLineHorizontal"
@@ -150,6 +153,7 @@ export default function Cursor({
         strokeDasharray={getOr(graphStyleContext, 'cursorLineHorizontal.strokeDasharray', '5,10')}
         strokeWidth={getOr(graphStyleContext, 'cursorLineHorizontal.strokeWidth', '1')}
         visibility="hidden"
+        style={getOr(graphStyleContext, 'cursorLineHorizontal.style', {})}
       />
       <text
         id="cursorLineHorizontalText"
@@ -166,6 +170,8 @@ export default function Cursor({
         dx={getOr(graphStyleContext, 'cursorLineHorizontalText.dx', undefined)}
         dy={getOr(graphStyleContext, 'cursorLineHorizontalText.dy', undefined)}
         rotate={getOr(graphStyleContext, 'cursorLineHorizontalText.rotate', undefined)}
+        fontWeight={getOr(graphStyleContext, 'cursorLineHorizontalText.fontWeight', undefined)}
+        style={getOr(graphStyleContext, 'cursorLineHorizontalText.style', {})}
       ></text>
       <text
         id="cursorLineVerticalText"
@@ -173,15 +179,17 @@ export default function Cursor({
         x="50"
         y="50"
         visibility="hidden"
-        textAnchor={getOr(graphStyleContext, 'cursorLineHorizontalText.textAnchor', 'start')}
+        textAnchor={getOr(graphStyleContext, 'cursorLineVerticalText.textAnchor', 'start')}
         dominantBaseline={getOr(
           graphStyleContext,
-          'cursorLineHorizontalText.dominantBaseline',
+          'cursorLineVerticalText.dominantBaseline',
           'auto',
         )}
-        dx={getOr(graphStyleContext, 'cursorLineHorizontalText.dx', undefined)}
-        dy={getOr(graphStyleContext, 'cursorLineHorizontalText.dy', undefined)}
-        rotate={getOr(graphStyleContext, 'cursorLineHorizontalText.rotate', undefined)}
+        dx={getOr(graphStyleContext, 'cursorLineVerticalText.dx', undefined)}
+        dy={getOr(graphStyleContext, 'cursorLineVerticalText.dy', undefined)}
+        rotate={getOr(graphStyleContext, 'cursorLineVerticalText.rotate', undefined)}
+        fontWeight={getOr(graphStyleContext, 'cursorLineVerticalText.fontWeight', undefined)}
+        style={getOr(graphStyleContext, 'cursorLineVerticalText.style', {})}
       ></text>
     </React.Fragment>
   )
