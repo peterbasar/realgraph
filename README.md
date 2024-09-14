@@ -25,6 +25,7 @@ Realtime graph data visualization library for React
   - [Using own list of points](#using-own-list-of-points)
   - [Adding points to internal Graph list of points](#adding-points-to-internal-Graph-list-of-points)
   - [Export options](#export-options)
+  - [Custom style](#custom-style)
 - [Missing features](#missing-features)
 - [Known bugs](#known-bugs)
 <!--te-->
@@ -341,6 +342,85 @@ function Example() {
   )
 }
 ```
+
+### Custom style
+
+```jsx
+import Graph from 'realgraph'
+
+const style = {
+  graphOuterContainer: {
+    background: 'linear-gradient(0deg, rgba(9,32,74,1) 0%, rgba(20,66,147,1) 100%)',
+  },
+  cursorCircle: {
+    fill: 'white',
+  },
+  cursorLineVertical: {
+    stroke: 'white',
+    strokeDasharray: '1,10',
+  },
+  cursorLineHorizontal: {
+    stroke: 'white',
+    strokeDasharray: '1,10',
+  },
+  cursorLineHorizontalText: {
+    fontWeight: '200',
+    style: {
+      fill: 'white',
+    },
+  },
+  cursorLineVerticalText: {
+    fontWeight: '200',
+    style: {
+      fill: 'white',
+    },
+  },
+  axisXTitle: {
+    color: 'white',
+    fontWeight: '200',
+  },
+  axisXText: {
+    color: 'white',
+    fontWeight: '200',
+  },
+  axisYTitle: {
+    color: 'white',
+    fontWeight: '200',
+  },
+  axisYText: {
+    color: 'white',
+    fontWeight: '200',
+  },
+  axisXSvg: {
+    fill: 'white',
+  },
+  axisYSvg: {
+    fill: 'white',
+  },
+  axisXLine: {
+    stroke: 'white',
+  },
+  axisYLine: {
+    stroke: 'white',
+  },
+  graphPath: {
+    stroke: 'white',
+    strokeWidth: '1',
+  },
+},
+
+function Example() {
+  return (
+    <Graph
+      width={width} // Manually set graph width
+      height={height} // Manually set graph height
+      style={style} // Custom style
+    />
+  )
+}
+```
+
+<img src="./media/custom-style.gif" width="300" height="auto"/>
 
 ## Missing features
 
